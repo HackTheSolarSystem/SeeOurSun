@@ -1,0 +1,14 @@
+.list {
+  width: 100%;
+  height: 100%;
+}
+
+.scripts {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    align-self: center;
+    font-size: 1.25em;
+}
