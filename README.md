@@ -2,7 +2,7 @@
 
 ### Addressing: [See Our Sun](https://github.com/amnh/HackTheSolarSystem/wiki/See-Our-Sun)
 
-### Created by { Team Name }
+### Created by: *Staring at the Sun*
 * Tom Lavenziano - https://github.com/TomLavenziano
 * Rajendra Bhagroo - https://github.com/RajendraBhagroo
 * Connor Couetil - 
