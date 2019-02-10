@@ -6,6 +6,7 @@
 * Tom Lavenziano - https://github.com/TomLavenziano
 * Rajendra Bhagroo - https://github.com/RajendraBhagroo
 * Connor Couetil - https://github.com/couetilc
+* Peter Locharernkul - https://github.com/pichya
 
 ### Solution Description
 
