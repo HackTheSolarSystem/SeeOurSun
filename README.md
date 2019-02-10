@@ -1,5 +1,5 @@
-## See Our Sun
-
+See Our Sun
+=====
 ### Addressing: [See Our Sun](https://github.com/amnh/HackTheSolarSystem/wiki/See-Our-Sun)
 
 ### Created by: *Staring at the Sun*
@@ -7,6 +7,8 @@
 * Rajendra Bhagroo - https://github.com/RajendraBhagroo
 * Connor Couetil - https://github.com/couetilc
 * Peter Locharernkul - https://github.com/pichya
+
+![Screenshot](https://github.com/HackTheSolarSystem/SeeOurSun/blob/master/2019-02-10-12:59:19-screenshot.png)
 
 ### Solution Description
 
