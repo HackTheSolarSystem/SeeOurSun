@@ -1,6 +1,6 @@
 {
     "name": "@tomlavenziano/solis",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Retrieve NASA projection mapping data for the sun from the Helios API",
     "main": "index.js",
     "scripts": {
