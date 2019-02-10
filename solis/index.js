@@ -8,12 +8,11 @@
 
 const axios = require('axios');
 const fs = require('fs');
-
 const interface = require('commander');
 
 const config = require('./config')
 
-console.log(config);
+// console.log(config);
 
 
 // If Solis is executed directly (not as an imported module)
