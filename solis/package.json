@@ -1,0 +1,16 @@
+{
+    "name": "solis",
+    "version": "1.0.0",
+    "description": "Retrieve NASA projection mapping data for the sun",
+    "main": "index.js",
+    "scripts": {
+        "start": "node solis",
+        "test": "node test"
+    },
+    "repository": "https://github.com/HackTheSolarSystem/SeeOurSun",
+    "author": "Tom Lavenziano <tlavenziano@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.18.0"
+    }
+}
