@@ -7,10 +7,8 @@
 
 
 const axios = require('axios');
-const https = require('https');
 const fs = require('fs');
 
-const fileDownload = require('js-file-download');
 const interface = require('commander');
 
 const config = require('./config')

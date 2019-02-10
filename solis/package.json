@@ -1,7 +1,7 @@
 {
-    "name": "solis",
+    "name": "@tomlavenziano/solis",
     "version": "1.0.0",
-    "description": "Retrieve NASA projection mapping data for the sun",
+    "description": "Retrieve NASA projection mapping data for the sun from the Helios API",
     "main": "index.js",
     "scripts": {
         "start": "node solis",
@@ -11,6 +11,7 @@
     "author": "Tom Lavenziano <tlavenziano@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "axios": "^0.18.0"
+        "axios": "^0.18.0",
+        "commander": "^2.19.0"
     }
 }
