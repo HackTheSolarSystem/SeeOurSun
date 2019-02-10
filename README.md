@@ -10,14 +10,11 @@
 
 ### Solution Description
 
-We created an npm package "solis" to download up-to-date data on the Sun's 
-
-We created an interface in OpenSpace's React.js WebGuiFrontend to execute Node.js scripts stored in the WebGuiBackend.
-
+We created an npm package "solis" to download up-to-date imagery of the Sun from the Helioview API. We added an interface in OpenSpace's React.js WebGuiFrontend to execute a Node.js script stored in the WebGuiBackend to initiate this download.
 
 ### Installation Instructions
 
-#### installing the "Solis" package
+#### Installing the "Solis" package
 
 Add the "solis" package using npm:
 
@@ -25,13 +22,13 @@ Add the "solis" package using npm:
 npm install @tomlavenziano/solis
 ```
 
-#### installing OpenSpace-WebGuiFrontend
+#### Installing OpenSpace-WebGuiFrontend
 
 Requires a pull request to https://github.com/OpenSpace/OpenSpace-WebGuiFrontend.
 
 The files within OpenSpace-WebGuiFrontend are the only modified files from the original repo.
 
-#### installing OpenSpace-WebGuideBackend
+#### Installing OpenSpace-WebGuideBackend
 
 Requires a pull request to https://github.com/OpenSpace/OpenSpace-WebGuiBackend
 
