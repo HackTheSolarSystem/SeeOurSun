@@ -12,7 +12,7 @@ See Our Sun
 
 ### Solution Description
 
-The Solar Dynamics Observatory takes photographs of the Sun 24/7. These photos are publically available, yet large and diffiult to obtain. Historically, OpenSpace has been unable to utilize these photographs, but with our project it can.
+The Solar Dynamics Observatory takes photographs of the Sun 24/7. These photos are publically available, yet large and difficult to obtain. Historically, OpenSpace has been unable to utilize these photographs, but with our project it can.
 
 The core challenge was comprised of two parts. The first challenge was to get the sun data from NASA and transform it to be used in OpenSpace. This was achieved by creating an npm package called *Solis*. This package operates as either an npm module that can be imported into any new or existing OpenSpace script, or as a standalone executable CLI application. It takes in parameters from the user regarding which source to use specifically and at which wavelength. Solis finds the associated sun data/files from the Helioviewer API and retrieves the files, at which point they're moved into either a user designated output folder or into a default ./output folder. 
 
