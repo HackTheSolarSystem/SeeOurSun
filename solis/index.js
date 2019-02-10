@@ -40,7 +40,9 @@ function getSOHO(wvlen, date, outputDir) {
         let startFileNameIndex = headerLine.indexOf('"') + 1
         let endFileNameIndex = headerLine.lastIndexOf('"')
         let filename = headerLine.substring(startFileNameIndex, endFileNameIndex)
-        res.data.pipe(fs.createWriteStream(`${outputDir}/${filename}`).on('error', console.log));
+        res.data.pipe(fs.createWriteStream(`${outputDir}/${filename}`).on('error', console.error));
+
+        console.log('OutputDir: ' + `${outputDir}/${filename}`);
     });
 
 }
@@ -62,7 +64,9 @@ function getSDO(wvlen, date, outputDir) {
         let startFileNameIndex = headerLine.indexOf('"') + 1
         let endFileNameIndex = headerLine.lastIndexOf('"')
         let filename = headerLine.substring(startFileNameIndex, endFileNameIndex)
-        res.data.pipe(fs.createWriteStream(`${outputDir}/${filename}`).on('error', console.log));
+        res.data.pipe(fs.createWriteStream(`${outputDir}/${filename}`).on('error', console.error));
+
+        console.log('OutputDir: ' + `${outputDir}/${filename}`);
     });
 
 }
