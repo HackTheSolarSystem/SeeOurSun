@@ -1,0 +1,25 @@
+{
+  "name": "openspace-gui-server",
+  "version": "0.1.0",
+  "description": "OpenSpace Gui Server",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npm install && rimraf dist",
+    "build": "webpack",
+    "start": "node backend.js -p 8000 -w 8001"
+  },
+  "author": "OpenSpace Team",
+  "license": "MIT",
+  "dependencies": {
+    "@tomlavenziano/solis": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "commander": "^2.19.0",
+    "express": "^4.16.3",
+    "ws": "^6.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
