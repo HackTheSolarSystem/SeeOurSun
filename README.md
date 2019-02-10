@@ -10,16 +10,29 @@
 
 ### Solution Description
 
-You must provide a paragraph describing the solution in some detail. This must be an entire paragraph, more than one or two sentences.
-It should explain whatever approaches you took to the problem, what you think worked and what did not work, and describe potential future
-work to be done.
+We created an npm package "solis" to download up-to-date data on the Sun's 
+
+We created an interface in OpenSpace's React.js WebGuiFrontend to execute Node.js scripts stored in the WebGuiBackend.
+
 
 ### Installation Instructions
 
-You must list by name all software packages, APIs, frameworks, databases, or any other tools or libraries you used.
+#### installing the "Solis" package
 
-You must also provide any step-by-step instructions for installation of your solution.
-* Step one - install package manager
-* Step two - special config instructions
-* Step three - system administration notes
-* Step four - command line how-to, listing descriptions of all optional arguments
+Add the "solis" package using npm:
+
+```bash
+npm install @tomlavenziano/solis
+```
+
+#### installing OpenSpace-WebGuiFrontend
+
+Requires a pull request to https://github.com/OpenSpace/OpenSpace-WebGuiFrontend.
+
+The files within OpenSpace-WebGuiFrontend are the only modified files from the original repo.
+
+#### installing OpenSpace-WebGuideBackend
+
+Requires a pull request to https://github.com/OpenSpace/OpenSpace-WebGuiBackend
+
+The files within OpenSpace-WebGuiBackend are the only modified files from the original repo.
