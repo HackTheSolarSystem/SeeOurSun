@@ -1,0 +1,6 @@
+[submodule "OpenSpace-WebGuiFrontend"]
+	path = OpenSpace-WebGuiFrontend
+	url = git@github.com:OpenSpace/OpenSpace-WebGuiFrontend.git
+[submodule "OpenSpace-WebGuiBackend"]
+	path = OpenSpace-WebGuiBackend
+	url = git@github.com:OpenSpace/OpenSpace-WebGuiBackend.git
